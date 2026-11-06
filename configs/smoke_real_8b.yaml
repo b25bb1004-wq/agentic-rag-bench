@@ -1,0 +1,12 @@
+name: smoke_real_8b
+agent: react
+condition: c0
+seeds: [0]
+n_clean: 6
+n_per_category: 3
+llm: {base_url: "http://127.0.0.1:8081", model: local}
+retriever: {dense_model: null}
+memory: {episodes_path: data/episodes.jsonl, k: 3}
+workers: 2
+out_dir: results/smoke_real_8b
+split: eval

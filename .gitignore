@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/hotpot_val.parquet
+results/
+reports/*.codex.log
+reports/*.err
+reports/*.last.txt
+board/sync_state.json
+*.gguf
+data/episodes_pilot*
+logs/
+models/
+kaggle/VERSION
+kaggle_out/

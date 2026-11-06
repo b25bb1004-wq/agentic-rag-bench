@@ -1,0 +1,13 @@
+name: s17_react_c1_poison_fact_k5
+agent: react
+condition: c1_poison_fact_k5
+seeds: [0]
+n_clean: 100
+n_per_category: 0
+llm: {base_url: "http://127.0.0.1:8080", model: local}
+retriever: {dense_model: null}
+memory: {episodes_path: data/episodes.jsonl, k: 3}
+workers: 2
+oracle_context: false
+out_dir: results/s17_react_c1_poison_fact_k5
+split: eval

@@ -1,0 +1,12 @@
+name: smoke_noise_a
+agent: react
+condition: c0
+seeds: [0]
+n_clean: 10
+n_per_category: 4
+llm: {base_url: "http://127.0.0.1:8080", model: local}
+retriever: {dense_model: null}
+memory: {episodes_path: data/episodes.jsonl, k: 3}
+workers: 1
+out_dir: results/smoke_noise_a
+split: eval
